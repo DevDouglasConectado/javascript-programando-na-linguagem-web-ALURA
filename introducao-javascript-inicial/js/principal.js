@@ -1,10 +1,12 @@
 
 var titulo = document.querySelector(".titulo");
-titulo.textContent = "Aparecida nutricionista";
+titulo.textContent = "Aparecida nutricionista - show";
 
 var pacientes = document.querySelectorAll(".paciente");
+console.log(pacientes);  
 
 for (var i = 0; i < pacientes.length; i++) {
+    console.log(pacientes[i]);
 
     var paciente = pacientes[i];
     /*peso*/
@@ -24,6 +26,14 @@ for (var i = 0; i < pacientes.length; i++) {
         pesoEhValido = false;
         tdImc.textContent = "Peso inválido";
         paciente.classList.add("paciente-invalido");
+        /**style:para acessa os estilos.
+         * textContent: acessa o conteudo de texto HTML
+         * classList: retorna todas as classes daquele objeto,retorna alguns metodos
+         * metodo .add - permite adicionar uma nova classe a quele obeto.
+         * 
+         * 
+         */
+        /* paciente.style.backgroudColor = "red";*/
     }
 
     if (altura <= 0 || altura >= 3.00) {
