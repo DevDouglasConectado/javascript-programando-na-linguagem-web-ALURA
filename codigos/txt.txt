@@ -1,0 +1,17 @@
+var botao = document.querySelector('#botao');
+
+botao.addEventListener('click', function() {
+
+    alert('Botão clicado');
+
+});
+
+var titulo = document.querySelector("#titulo");
+titulo.addEventListener("click", function(){
+    console.log("Fui clicado");
+});
+
+var titulo = document.querySelector("#titulo");
+titulo.addEventListener("click", function(){
+    console.log("Fui clicado");
+});
