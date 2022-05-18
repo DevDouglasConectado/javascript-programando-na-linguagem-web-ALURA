@@ -1,0 +1,6 @@
+  /**style:para acessa os estilos.
+         * textContent: acessa o conteudo de texto HTML
+         * classList: retorna todas as classes daquele objeto,retorna alguns metodos
+         * metodo .add - permite adicionar uma nova classe a quele obeto.
+         */
+         /* paciente.style.backgroudColor = "red";*/
