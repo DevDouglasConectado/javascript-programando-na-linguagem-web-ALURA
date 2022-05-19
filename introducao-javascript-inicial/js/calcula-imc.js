@@ -44,7 +44,7 @@ for (var i = 0; i < pacientes.length; i++) {
       if(peso >= 0 && peso < 1000){
           return true;
       }else{
-          return false;
+          return false; 
       }
   }
   function validaAltura(altura){
